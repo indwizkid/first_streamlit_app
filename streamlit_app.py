@@ -17,4 +17,6 @@ streamlit.text('🥑🍞 Avocado Toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.dataframe(fruits_to_show)
-streamlit.text(fruityvice_response)
+
+streamlit.header("Fruityvice Fruit Advice!")
+streamlit.text(fruityvice_response.json())
