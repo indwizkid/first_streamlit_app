@@ -55,5 +55,3 @@ if streamlit.button('Add a button to the list'):
   print('deepak55')
   back_from_function = insert_row_snowflake(add_my_fruit)
   srtreamlit.text(back_from_function)
-
-
